@@ -1,2 +1,3 @@
-#!/bin/bash
-echo $$
+#!/usr/bin/env bash
+# Un script qui affiche son propre PID (Process ID)
+echo "$$"
