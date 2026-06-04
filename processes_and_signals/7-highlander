@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script loops indefinitely and traps SIGTERM signals
+
+clean_exit() {
+    echo "I am invincible!!!"
+}
+
+trap clean_exit SIGTERM
+
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
