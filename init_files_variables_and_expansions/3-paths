@@ -1,4 +1,3 @@
 #!/bin/bash
 echo "$PATH" | tr ":" "
-" | tr -s "
 " | wc -l
